@@ -151,8 +151,7 @@ The receiver is then operating correctly and we have locked onto the transmissio
 void transmitArray(Manchester *man, uint8_t numBytes, uint8_t *data)
 {
   sendLock(man);
-  // Send 1 0's
-  //for( uint8_t i = 0; i < 7; i++) //send capture pulses
+  
     sendZero(man); //end of capture pulses
  
   // Send a single 1

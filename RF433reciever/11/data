@@ -1,0 +1,4 @@
+Battery charge, BC =  48
+DS 18b20 temperature HByte, DSHB =  1
+DS 18b20 temperature LByte, DSLB =  75
+CRC = 232
